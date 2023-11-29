@@ -1,0 +1,37 @@
+{
+    "id": "katalog-restaurant-pwa-1",
+    "start_url": "./index.html",
+    "name": "Katalog Restaurant",
+    "short_name": "Restaurant",
+    "theme_color": "#1c1b1b",
+    "description": "List katalog restaurant untuk kamu",
+    "background_color": "#1c1b1b",
+    "display": "standalone",
+    "icons": [
+        {
+          "src": "icons/dinner-32x32.png",
+          "sizes": "32x32",
+          "type": "image/png"
+        },        
+        {
+          "src": "icons/dinner-64x64.png",
+          "sizes": "64x64",
+          "type": "image/png"
+        },        
+        {
+          "src": "icons/dinner-128x128.png",
+          "sizes": "128x128",
+          "type": "image/png"
+        },
+        {
+          "src": "icons/dinner-256x256.png",
+          "sizes": "256x256",
+          "type": "image/png"
+        },
+        {
+          "src": "icons/dinner-512x512.png",
+          "sizes": "512x512",
+          "type": "image/png"
+        }
+      ]
+  }

@@ -1,0 +1,203 @@
+#menu {
+  font-size: 32px;
+  align-items: center;
+  padding-top: 36px;
+}
+
+.hero{
+  border-radius: 0px;
+  background-repeat: no-repeat;
+}
+
+  
+  @media screen and (max-width: 499px) {
+    .navbar-list {
+      z-index: 10;
+      background-color: black;
+      width: 300px;
+      position: absolute;
+
+  
+      /* This trasform moves the drawer off canvas. */
+      -webkit-transform: translate(-350px, 0);
+      transform: translate(-350px, 0);
+  
+      /* Optionally, we animate the drawer. */
+      transition: transform 0.3s ease;
+    }
+
+  
+    .open {
+      -webkit-transform: translate(0, 0);
+      transform: translate(0, 0);
+    }
+  
+    .nav_item {
+      border-bottom: 1px solid #e0e0e0;
+      width: 100%;
+      font-size: 12px;
+      text-align: center;
+    }
+    
+    nav{
+      display: flex;
+    }
+
+    .hamburger{
+      width: 45px;
+      margin-top: -30px;
+      color: white;
+      text-decoration: none;
+    }
+
+    #daftar-restaurant{
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+
+    .first-menu{
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      margin: 60px;
+    }
+
+
+    .description-1{
+      font-size: 10px;
+    }
+
+    .description-1 p{
+      font-size: 10px;
+    }
+
+    .image-1 img{
+      width: 100px;
+      margin-left: 20px;
+    }
+
+
+    #about-us{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .photo-biografi{
+      text-align: center;
+      padding: 10px;
+    }
+
+    .photo-biografi img{
+      border-radius: 50%;
+      width: 300px;
+    }
+
+
+    .biografi{
+      display: inline;
+      width: 200px;
+      font-size: 20px;
+      text-align: center;
+    }
+
+    .biografi h1{
+      font-size: 25px;
+    }
+
+    .sosmed ul {
+      display: flex;
+      justify-content: center;
+    }
+
+    .sosmed ul li i{
+      font-size: 46px;
+    }
+
+    .favorite-restaurants {
+      grid-template-columns: 1fr 1fr;
+    }
+
+    .detail_restaurant {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .restaurant_image {
+      border-radius: 30px;
+      width: 250px;
+    }
+
+    .deskripsi-footer{
+      display: block;
+      text-align: center;
+    }
+
+    .menu-footer ul {
+      display: flex;
+      justify-content: center;
+    }
+
+
+
+
+
+  }
+
+  @media screen and (min-width: 500px) {
+    
+    .hamburger {
+      display: none;
+    }
+
+  }
+
+  @media screen and (max-width: 600px) {
+      .hero {
+        width: 100%;
+        background-image: url('../../dist/images/heros/hero-image_4-small.jpg');
+        background-size: cover;
+      }
+  }
+
+  @media screen and (min-width: 700px) {
+    #daftar-restaurant{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    #about-us {
+     display: flex;
+     justify-content: center;
+     margin: 30px;
+    }
+
+    .photo-biografi img{
+      width: 400px;
+    }
+
+    
+    
+  }
+
+
+
+  @media screen and (min-width: 1200px) {
+    .hero{
+      width: 1000px;
+      margin: 0 auto;
+      border-radius: 20px;
+    }
+
+  }
+  
+
+
+
+
+
+
+
+  
+  
